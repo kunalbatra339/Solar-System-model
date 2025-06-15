@@ -129,8 +129,6 @@ body {
   .orbit-container {
     transform: translate(-50%, -50%) scale(0.6);
   }
-
-  .moon-container {
-    transform: translate(-50%, -50%) scale(0.5);
-  }
+.moon-container {
+  display: none !important;
 }
