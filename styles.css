@@ -46,10 +46,7 @@ body {
 }
 
 .moon-container {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: none !important;
 }
 
 .asteroid-belt {
@@ -129,6 +126,4 @@ body {
   .orbit-container {
     transform: translate(-50%, -50%) scale(0.6);
   }
-.moon-container {
-  display: none !important;
-}
+
