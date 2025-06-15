@@ -84,3 +84,53 @@ body {
   0%, 100% { opacity: 0.2; }
   50% { opacity: 1; }
 }
+
+/* ------------------- MOBILE RESPONSIVENESS ADDED ------------------- */
+@media (max-width: 600px) {
+  .sun {
+    width: 40px;
+    height: 40px;
+  }
+
+  .orbit {
+    border-width: 0.5px;
+  }
+
+  .asteroid-belt {
+    border-width: 0.5px;
+  }
+
+  .celestial-body {
+    width: 10px !important;  /* Ensuring planets are smaller on mobile */
+    height: 10px !important;
+  }
+
+  .moon-container {
+    transform: translate(-50%, -50%) scale(0.7);
+  }
+
+  .orbit-container {
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 400px) {
+  .sun {
+    width: 30px;
+    height: 30px;
+  }
+
+  .celestial-body {
+    width: 8px !important;
+    height: 8px !important;
+  }
+
+  .orbit-container {
+    transform: translate(-50%, -50%) scale(0.6);
+  }
+
+  .moon-container {
+    transform: translate(-50%, -50%) scale(0.5);
+  }
+}
