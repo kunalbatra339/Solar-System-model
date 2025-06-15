@@ -89,3 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
     document.body.appendChild(star);
   }
 });
+
+document.querySelectorAll('.moon-container').forEach(moon => {
+    moon.style.display = 'none';
+});
